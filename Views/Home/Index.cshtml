@@ -1,0 +1,7 @@
+@model IEnumerable<TranVietHung_241230741.Models.Sach>
+@{
+    ViewData["Title"] = "Trang chủ";
+    Layout = "~/Views/Shared/TranVietHung_Layout.cshtml";
+}
+@await Html.PartialAsync("_TranVietHung_Maincontent", Model)
+
